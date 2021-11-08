@@ -1,4 +1,7 @@
 logging:
   level: INFO
   loggers:
-    com.saucelabs: DEBUG
+    com.saucelabs.examples: DEBUG
+
+defaultUserName: Dylan
+defaultUserSauce: Yuzu Ponzu

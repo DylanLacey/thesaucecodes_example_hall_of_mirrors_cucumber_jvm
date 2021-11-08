@@ -6,18 +6,18 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.saucelabs</groupId>
+    <groupId>com.saucelabs.examples</groupId>
     <artifactId>tscHallOfMirrorsCukeJVM</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Hall of Mirrors (Cuke JVM & Dropwizard)</name>
+    <name>DropwizardCukeJVMExample</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <dropwizard.version>2.0.25</dropwizard.version>
-        <mainClass>com.saucelabs.Hall of Mirrors (Cuke JVM & Dropwizard)Application</mainClass>
+        <mainClass>com.saucelabs.examples.DropwizardCukeJVMExampleApplication</mainClass>
     </properties>
 
     <dependencyManagement>
@@ -93,6 +93,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <mainClass>${mainClass}</mainClass>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                     </archive>
                 </configuration>
